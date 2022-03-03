@@ -1,0 +1,26 @@
+.todo{
+    margin-bottom: 1rem;
+}
+.todo span.completed{
+    text-decoration: line-through;
+}
+
+.todo label{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    padding: 1rem;
+}
+.todo i {
+    z-index: 2;
+}
+
+.submit_button{
+    display: flex;
+    justify-content: space-between;
+    width: min-content;
+    align-items: center;
+}
